@@ -1,0 +1,81 @@
+{
+  "eval_jsonl": "C:\\qwen-finetune\\export-20260511T232819Z-3-001\\export\\data\\valid_dh.jsonl",
+  "base_model": "C:\\qwen-finetune\\model",
+  "n_rows_jsonl": 149,
+  "n_rows_evaluated": 140,
+  "skipped_rows_gold_in_excluded": 9,
+  "stripped_candidate_labels": [
+    "burnout",
+    "value"
+  ],
+  "variants": [
+    {
+      "key": "baseline",
+      "display_name": "Baseline",
+      "adapter": null,
+      "skipped": false,
+      "metrics": {
+        "exact_accuracy": 0.07142857142857142,
+        "macro_f1": 0.022321428571428572,
+        "n": 140,
+        "hierarchy_acc1": 0.19285714285714287,
+        "hierarchy_acc_by_depth": {
+          "1": 0.19285714285714287,
+          "2": 0.07142857142857142,
+          "3": 0.0
+        }
+      }
+    },
+    {
+      "key": "finetune",
+      "display_name": "Finetune (real)",
+      "adapter": "C:\\qwen-finetune\\outputs\\finetune_base",
+      "skipped": false,
+      "metrics": {
+        "exact_accuracy": 0.35,
+        "macro_f1": 0.27245843092463606,
+        "n": 140,
+        "hierarchy_acc1": 0.6071428571428571,
+        "hierarchy_acc_by_depth": {
+          "1": 0.6071428571428571,
+          "2": 0.36428571428571427,
+          "3": 0.47368421052631576
+        }
+      }
+    },
+    {
+      "key": "finetune_equal",
+      "display_name": "Finetune + equal synth",
+      "adapter": "C:\\qwen-finetune\\outputs\\finetune_synthetic_equal",
+      "skipped": false,
+      "metrics": {
+        "exact_accuracy": 0.37857142857142856,
+        "macro_f1": 0.3147871819874851,
+        "n": 140,
+        "hierarchy_acc1": 0.6071428571428571,
+        "hierarchy_acc_by_depth": {
+          "1": 0.6071428571428571,
+          "2": 0.39285714285714285,
+          "3": 0.5263157894736842
+        }
+      }
+    },
+    {
+      "key": "finetune_balance",
+      "display_name": "Finetune + balance synth",
+      "adapter": "C:\\qwen-finetune\\outputs\\finetune_synthetic_balance",
+      "skipped": false,
+      "metrics": {
+        "exact_accuracy": 0.37142857142857144,
+        "macro_f1": 0.286360238686343,
+        "n": 140,
+        "hierarchy_acc1": 0.6,
+        "hierarchy_acc_by_depth": {
+          "1": 0.6,
+          "2": 0.37857142857142856,
+          "3": 0.42105263157894735
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "n_categories": 13,
+  "model_trends": {
+    "finetune": {
+      "spearman_log_support_vs_error": -0.30769230769214323,
+      "trend_slope_error_vs_log_support": -0.04726772415314544,
+      "trend_intercept": 0.7111622083864557,
+      "mean_error_rate": 0.6675946275946275
+    },
+    "finetune_equal": {
+      "spearman_log_support_vs_error": -0.43406593406570215,
+      "trend_slope_error_vs_log_support": -0.28010084921012884,
+      "trend_intercept": 0.9368343523281522,
+      "mean_error_rate": 0.678659951159951
+    },
+    "finetune_balance": {
+      "spearman_log_support_vs_error": -0.384615384615179,
+      "trend_slope_error_vs_log_support": -0.09063950162678376,
+      "trend_intercept": 0.7461174518194407,
+      "mean_error_rate": 0.6625732600732601
+    }
+  },
+  "delta_trends": {
+    "uniform_minus_ft_slope": 0.23283312505698375,
+    "uniform_minus_ft_intercept": -0.2256721439416966,
+    "balanced_minus_ft_slope": 0.04337177747363845,
+    "balanced_minus_ft_intercept": -0.03495524343298503
+  },
+  "rows": [
+    {
+      "category": "structuring > microsystem level structuring",
+      "category_id": "C01",
+      "n": 25,
+      "error_ft": 0.72,
+      "error_uniform": 0.52,
+      "error_balanced": 0.52,
+      "delta_uniform_minus_ft": 0.19999999999999996,
+      "delta_balanced_minus_ft": 0.19999999999999996
+    },
+    {
+      "category": "readiness > Consensus CNL practice can close gaps",
+      "category_id": "C02",
+      "n": 18,
+      "error_ft": 0.5,
+      "error_uniform": 0.7222222222222222,
+      "error_balanced": 0.6111111111111112,
+      "delta_uniform_minus_ft": -0.2222222222222222,
+      "delta_balanced_minus_ft": -0.11111111111111116
+    },
+    {
+      "category": "structuring > CNL level workflow structuring",
+      "category_id": "C03",
+      "n": 16,
+      "error_ft": 0.5,
+      "error_uniform": 0.4375,
+      "error_balanced": 0.5625,
+      "delta_uniform_minus_ft": 0.0625,
+      "delta_balanced_minus_ft": -0.0625
+    },
+    {
+      "category": "structuring > CNL level competency structuring",
+      "category_id": "C04",
+      "n": 15,
+      "error_ft": 0.8666666666666667,
+      "error_uniform": 0.7333333333333333,
+      "error_balanced": 0.8,
+      "delta_uniform_minus_ft": 0.13333333333333341,
+      "delta_balanced_minus_ft": 0.06666666666666665
+    },
+    {
+      "category": "CNL practice > Support staff engagement",
+      "category_id": "C05",
+      "n": 14,
+      "error_ft": 0.7142857142857143,
+      "error_uniform": 0.7857142857142857,
+      "error_balanced": 0.7142857142857143,
+      "delta_uniform_minus_ft": -0.0714285714285714,
+      "delta_balanced_minus_ft": 0.0
+    },
+    {
+      "category": "CNL practice > Facilitate effective ongoing communication",
+      "category_id": "C06",
+      "n": 12,
+      "error_ft": 0.3333333333333333,
+      "error_uniform": 0.3333333333333333,
+      "error_balanced": 0.25,
+      "delta_uniform_minus_ft": 0.0,
+      "delta_balanced_minus_ft": 0.08333333333333331
+    },
+    {
+      "category": "readiness > Organization level implementation strategy > education as implementation strategy",
+      "category_id": "C07",
+      "n": 10,
+      "error_ft": 0.6,
+      "error_uniform": 0.6,
+      "error_balanced": 0.6,
+      "delta_uniform_minus_ft": 0.0,
+      "delta_balanced_minus_ft": 0.0
+    },
+    {
+      "category": "readiness > Organization level implementation strategy > CNL readiness for practice",
+      "category_id": "C08",
+      "n": 9,
+      "error_ft": 0.4444444444444444,
+      "error_uniform": 0.3333333333333333,
+      "error_balanced": 0.5555555555555556,
+      "delta_uniform_minus_ft": 0.1111111111111111,
+      "delta_balanced_minus_ft": -0.11111111111111116
+    },
+    {
+      "category": "CNL practice > Create and sustain teams",
+      "category_id": "C09",
+      "n": 7,
+      "error_ft": 1.0,
+      "error_uniform": 0.8571428571428571,
+      "error_balanced": 1.0,
+      "delta_uniform_minus_ft": 0.1428571428571429,
+      "delta_balanced_minus_ft": 0.0
+    },
+    {
+      "category": "readiness > Organization level implementation strategy",
+      "category_id": "C10",
+      "n": 7,
+      "error_ft": 1.0,
+      "error_uniform": 1.0,
+      "error_balanced": 1.0,
+      "delta_uniform_minus_ft": 0.0,
+      "delta_balanced_minus_ft": 0.0
+    },
+    {
+      "category": "outcome > Improved care environments",
+      "category_id": "C11",
+      "n": 3,
+      "error_ft": 1.0,
+      "error_uniform": 1.0,
+      "error_balanced": 1.0,
+      "delta_uniform_minus_ft": 0.0,
+      "delta_balanced_minus_ft": 0.0
+    },
+    {
+      "category": "CNL practice > Strengthen intra and interprofessional relationships",
+      "category_id": "C12",
+      "n": 2,
+      "error_ft": 0.0,
+      "error_uniform": 0.5,
+      "error_balanced": 0.0,
+      "delta_uniform_minus_ft": -0.5,
+      "delta_balanced_minus_ft": 0.0
+    },
+    {
+      "category": "outcome > Improved care quality outcomes",
+      "category_id": "C13",
+      "n": 2,
+      "error_ft": 1.0,
+      "error_uniform": 1.0,
+      "error_balanced": 1.0,
+      "delta_uniform_minus_ft": 0.0,
+      "delta_balanced_minus_ft": 0.0
+    }
+  ]
+}

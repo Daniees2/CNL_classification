@@ -1,0 +1,34 @@
+{
+  "models": {
+    "finetune": {
+      "n_total": 140,
+      "n_wrong_total": 91,
+      "wrong_same_component": 2,
+      "wrong_same_domain": 34,
+      "wrong_other_domain": 55,
+      "frac_wrong_same_component": 0.02197802197802198,
+      "frac_wrong_same_domain": 0.37362637362637363,
+      "frac_wrong_other_domain": 0.6043956043956044
+    },
+    "finetune_equal": {
+      "n_total": 140,
+      "n_wrong_total": 87,
+      "wrong_same_component": 2,
+      "wrong_same_domain": 30,
+      "wrong_other_domain": 55,
+      "frac_wrong_same_component": 0.022988505747126436,
+      "frac_wrong_same_domain": 0.3448275862068966,
+      "frac_wrong_other_domain": 0.632183908045977
+    },
+    "finetune_balance": {
+      "n_total": 140,
+      "n_wrong_total": 88,
+      "wrong_same_component": 1,
+      "wrong_same_domain": 31,
+      "wrong_other_domain": 56,
+      "frac_wrong_same_component": 0.011363636363636364,
+      "frac_wrong_same_domain": 0.3522727272727273,
+      "frac_wrong_other_domain": 0.6363636363636364
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "export_dir": "C:\\qwen-finetune\\export-20260511T232819Z-3-001\\export",
+  "train_jsonl": "C:\\qwen-finetune\\outputs\\synthetic_htc\\train_dh_with_synthetic_balance.jsonl",
+  "eval_jsonl": "C:\\qwen-finetune\\export-20260511T232819Z-3-001\\export\\data\\valid_dh.jsonl",
+  "model_path": "C:\\qwen-finetune\\model",
+  "output_dir": "C:\\qwen-finetune\\outputs\\finetune_synthetic_balance",
+  "synthetic_mode": "balance",
+  "synthetic_data_dir": "C:\\qwen-finetune\\outputs\\synthetic_htc"
+}

@@ -1,0 +1,7 @@
+{
+  "export_dir": "C:\\qwen-finetune\\export-20260511T232819Z-3-001\\export",
+  "train_jsonl": "C:\\qwen-finetune\\export-20260511T232819Z-3-001\\export\\data\\train_dh.jsonl",
+  "eval_jsonl": "C:\\qwen-finetune\\export-20260511T232819Z-3-001\\export\\data\\valid_dh.jsonl",
+  "model_path": "C:\\qwen-finetune\\model",
+  "output_dir": "C:\\qwen-finetune\\outputs\\finetune_base"
+}
